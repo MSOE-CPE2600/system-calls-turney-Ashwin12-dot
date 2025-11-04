@@ -54,3 +54,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.o
+*.out
+*.exe
+a.out
+info
+pinfo
+pmod
+finfo
+
