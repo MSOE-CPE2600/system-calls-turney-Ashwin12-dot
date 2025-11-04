@@ -5,7 +5,7 @@
 *
 * mod.c
 *
-* compile instructions
+* compile instructions - makefile
 */
 
 #define _GNU_SOURCE

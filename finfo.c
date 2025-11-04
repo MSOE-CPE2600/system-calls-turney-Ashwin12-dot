@@ -5,7 +5,7 @@
 *
 * 
 *
-* compile instructions
+* compile instructions - makefile 
 */
 
 #include <stdio.h>
