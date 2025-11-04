@@ -23,7 +23,7 @@ int main(){
 
     //get time in nanoseconds from sys clock
     clock_gettime(CLOCK_REALTIME, &ts);
-    printf("the current time is (in nanoseconds): %ld\n", ts.tv_nsec); //display time
+    printf("the current time is (in nanoseconds): %lf\n", ts.tv_nsec + (ts.tv_sec * 1E9)); //display time
 
 
     //new struct to hold system info -- os and version
